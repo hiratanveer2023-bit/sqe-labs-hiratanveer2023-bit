@@ -1,3 +1,4 @@
+
 # week1/test_calculator.py
 """
 Unit tests for the calculator module.
@@ -7,8 +8,8 @@ Naming conventions followed:
   - Test function: test_<behaviour>_<condition>()
   - One assertion per test where possible (single responsibility)
 """
-import pytest
-from calculator import add, subtract, multiply, divide, power, is_even
+import pytestgit add Calculator.py test_calculator.py
+from Calculator import add, subtract, multiply, divide, power, is_even
 
 
 # ─── Tests for add() ──────────────────────────────────────────────────────────

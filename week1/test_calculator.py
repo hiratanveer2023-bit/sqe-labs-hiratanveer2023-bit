@@ -8,7 +8,7 @@ Naming conventions followed:
   - Test function: test_<behaviour>_<condition>()
   - One assertion per test where possible (single responsibility)
 """
-import pytestgit add Calculator.py test_calculator.py
+import pytest
 from Calculator import add, subtract, multiply, divide, power, is_even
 
 
